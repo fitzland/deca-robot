@@ -206,7 +206,7 @@ install_fonts() {
 
     mkdir -p ~/.local/share/fonts
 
-    fonts=( "3270" "BlexMono" "CaskaydiaCove" "FiraCode" "Inconolata" "IosevkaTerm" "JetBrainsMono" "RobotoMono" "SauceCodePro" "UbuntuMono" )
+    fonts=( "3270" "IBMPlexMono" "CascadiaCode" "FiraCode" "Inconsolata" "IosevkaTerm" "JetBrainsMono" "RobotoMono" "SourceCodePro" "UbuntuMono" )
 
     for font in "${fonts[@]}"; do
         if ls ~/.local/share/fonts/$font/*.ttf &>/dev/null; then
